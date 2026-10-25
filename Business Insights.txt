@@ -1,0 +1,218 @@
+ E-Commerce 360° — Business Insights Report
+
+1. Executive Summary
+
+This project analyzes a multi-source e-commerce dataset using Excel for data cleaning, reconciliation, and analysis, followed by Power BI for data modeling, KPI development, interactive filtering, and dashboard storytelling.
+
+The final analysis contains "8,000 orders", of which "7,218 are revenue-eligible orders" after excluding cancelled orders and zero-quantity records. These eligible orders generated "₹12,95,12,428 in net revenue", with "11,926 units sold" across "2,207 customers".
+
+The analysis also examines customer behavior, product and category performance, returns, payments, shipping performance, and estimated margin.
+
+The major business patterns identified are:
+
+* Revenue is highly concentrated in "Electronics".
+* "South and North" are the leading revenue-generating regions.
+* "Repeat customers contribute the majority of revenue".
+* Returns are relatively more noticeable in "Books and Fashion".
+* Late-delivery rates are relatively close across shipping methods.
+* A payment/refund process anomaly exists involving "253 cancelled orders with successful payment".
+
+The dashboard is designed to help management identify important business patterns and determine which questions require further investigation.
+
+
+2. Key Performance Indicators
+
+he completed analysis shows:
+
+* 8,000 total orders
+
+* 7,218 revenue-eligible orders
+
+* ₹12,95,12,428 net revenue
+
+* 11,926 units sold
+
+* 2,207 total customers
+
+* ₹17,942.98 average order value
+
+* ₹1,50,42,839 estimated margin
+
+Additional operating indicators include an overall cancellation rate of about 9.4%, an overall return rate of about 8.1%, and late-delivery rates of roughly 21.7%–24.5% across shipping methods.
+
+Note: Estimated margin is a product-level margin calculation based on selling price, cost price, quantity, and discount. It should not be interpreted as company net profit because expenses such as marketing, shipping, salaries, overheads, and other operating costs are not included.
+
+
+ 3. Key Business Insights
+
+3.1 Electronics is the Dominant Revenue Driver
+
+Electronics contributes approximately **₹10.74 crore** in net revenue, representing more than **80% of the project's total net revenue**.
+
+* What it means
+
+Overall business performance is highly dependent on Electronics. Changes in Electronics demand, availability, pricing, or customer returns could materially affect total revenue.
+
+* Business question to ask next
+
+Is this concentration intentional and profitable, or does it create unnecessary category risk?
+
+
+
+3.2 South and North are the Leading Revenue Regions
+
+South generates approximately "₹3.84 crore", followed by North at approximately "₹3.13 crore".
+
+* What it means
+
+These two regions are the largest geographic contributors to revenue in the current dataset.
+
+* Business question to ask next
+
+What category and customer mix is driving the strength of these regions, and does the same pattern hold for profit and repeat customers?
+
+
+3.3 Repeat Customers Generate Most of the Revenue
+
+Repeat customers contribute approximately "₹12.04 crore", compared with approximately "₹0.91 crore" from one-time customers.
+
+There are "888 repeat customers" among the "1,419 revenue-generating customers", and repeat customers generate roughly 93% of revenue.
+
+* What it means
+
+Customer retention appears highly important to revenue generation, even though repeat customers represent only part of the total customer base.
+
+* Business question to ask next
+
+What products, categories, or regions are most effective at creating repeat customers?
+
+
+
+3.4 Returns are More Noticeable in Books and Fashion
+
+Return rates for "Books and Fashion" are around "10%", compared with the project's overall return rate of approximately "8.1%".
+
+The largest recorded return reasons include:
+
+* Quality issue — 96
+* Size issue — 92
+* Wrong product — 89
+* Customer changed mind — 81
+* Late delivery — 79
+* Damaged product — 75
+* Product not as expected — 69
+
+There are also "65 return records with blank reasons", so the return-reason analysis is not complete for every return.
+
+* What it means
+
+These categories and return reasons deserve further investigation into product quality, sizing, product descriptions, customer expectations, and delivery experience.
+
+* Business question to ask next
+
+Which specific products or brands are driving the higher return rates in Books and Fashion?
+
+
+3.5 Shipping Method Alone Does Not Explain Late Deliveries
+
+Late-delivery rates are relatively close across shipping methods:
+
+----------------------------------------
+| Shipping Method | Late-Delivery Rate |
+| --------------- | -----------------: |
+| Standard        |          **24.5%** |
+| Surface         |          **24.4%** |
+| Express         |          **23.8%** |
+| Priority        |          **21.7%** |
+----------------------------------------
+*What it means
+
+The differences between shipping methods are relatively small. Therefore, the current data does not establish that simply changing the shipping method would solve the lateness problem.
+
+* Business question to ask next
+
+Does late delivery vary more by region, fulfillment process, warehouse, or order characteristics?
+
+
+
+ 3.6 Cancelled but Successfully Paid Orders Need Investigation
+
+There are "253 cancelled orders" associated with successful payment, involving approximately "₹41.3 lakh".
+
+*What it means
+
+This represents a payment/refund process anomaly that should be investigated.
+
+It should "not be described as fraud", because the available data does not establish that.
+
+* Business question to ask next
+
+Were these payments refunded successfully? If so, why is the refund information not visible in the current dataset?
+
+
+4. Overall Business Story
+
+The project tells a clear business story:
+
+=> Revenue is strong, but concentrated
+
+Electronics and the leading regions account for a large share of overall revenue. This indicates strong performance in these areas while also highlighting the importance of understanding revenue concentration.
+
+=> Customer value is highly retention-driven
+
+Repeat customers generate the majority of revenue. This makes customer retention an important area for further analysis.
+
+=> Operational quality needs attention
+
+Returns and late deliveries are meaningful operational patterns. The cancelled-but-successfully-paid pattern also raises a payment/refund process question that requires investigation.
+
+=> The dashboard identifies questions, not unsupported causes
+
+The purpose of the dashboard is to help management identify important patterns and determine what should be investigated next, rather than claiming root causes that the available data cannot establish.
+
+
+
+5. Important Limitations
+
+The insights describe patterns in the available dataset. They do not prove why those patterns exist.
+
+5.1 Delivery Delays
+
+The dataset shows late-delivery patterns, but it does not establish whether the cause is a warehouse issue, fulfillment delay, carrier problem, location, or another operational factor.
+
+5.2 Product Returns
+
+The return data contains recorded return reasons, but it does not prove the complete underlying cause behind every return.
+
+5.3 Electronics Revenue Concentration
+
+The dataset shows that Electronics dominates revenue, but it does not prove whether this is caused by customer demand, pricing, product availability, promotions, or other commercial factors.
+
+5.4 Regional Performance
+
+The data shows that South and North contribute strongly to revenue, but it does not prove which specific customer, category, pricing, or operational factor caused that performance.
+
+5.5 Repeat Customer Behavior
+
+Repeat customers generate most of the revenue, but the dataset does not prove which particular business action or strategy created that retention.
+
+5.6 Cancelled-but-Paid Orders
+
+The dataset identifies "253 cancelled orders with successful payment", but it does not show whether those payments were subsequently refunded or why the mismatch occurred. A separate payment/refund process check is required.
+
+5.7 Future Performance
+
+The dashboard describes historical data for the available period. It does not predict or prove future sales, returns, delivery rates, or customer behavior.
+
+5.8 Causation
+
+Differences or relationships visible in the dashboard should not automatically be treated as causal relationships. Additional evidence would be required to establish causation.
+
+
+6. Conclusion
+
+E-Commerce 360° provides an end-to-end view of e-commerce performance by combining data cleaning, reconciliation, analysis, and Power BI visualization.
+
+The analysis highlights strong revenue generation, significant dependence on Electronics, the importance of repeat customers, regional differences, return patterns, delivery performance, and a payment/refund process anomaly.
+
+Overall, the dashboard serves as a "business intelligence tool for identifying important patterns and guiding further investigation", while clearly distinguishing observed data patterns from conclusions that cannot be established from the available dataset.
