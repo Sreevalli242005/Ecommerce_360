@@ -258,3 +258,12 @@ I built this to be explored, not just looked at:
 
 - **Microsoft Excel** — cleaning the raw data, standardizing it, validation checks, pivot tables, calculations, reconciliation, exploratory analysis
 - **Power BI** — data modeling, DAX measures, interactive filtering, drill-through, KPIs, and pulling it all together into a dashboard
+
+## 📂 Project Files & Dashboard
+
+The complete project files, including the raw dataset, cleaned datasets, Excel analysis workbook, and Power BI dashboard, are available below.
+
+https://drive.google.com/drive/folders/1Tz6OJ0SVBzO_D3p9k9weAEPZaYe6WsAh?usp=sharing
+
+The project explores e-commerce sales performance, customer behaviour, product categories, returns, and operational trends using Excel and Power BI.
+
